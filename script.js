@@ -4,7 +4,7 @@ const modalMenu = document.querySelector(".modalMenu");
 const modalMenuContent = document.querySelector(".modalMenu .content");
 const menuList = document.querySelectorAll(".modalMenu .content nav ul li");
 
-header[0].onclick = function () {
+header[0].lastElementChild.onclick = function () {
   header[0].classList.toggle("open");
   modalMenu.classList.toggle("openModal");
   modalMenuContent.classList.add("openMenuModal");
